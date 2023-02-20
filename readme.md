@@ -41,7 +41,7 @@ pauseAnimation stops an animation without deleting it.
 
 ### resumeAnimation()
 ```
-resumeAnimation(id)
+resumeAnimation(id,delay)
 ```
 resumeAnimation resumes an animation that was previously paused. If the animation had been stopped with stopAniamtion, resumeAnimation would not work as the animation would be deleted.
 
