@@ -30,18 +30,18 @@ Easing Directions are in, out, and inout.
 ### stopAnimation()
 
 ```javascript
-stopAnimation(id,delay)
+Animlib.stopAnimation(id,delay)
 ```
 stopAnimation stops and deletes an animation.
 ### pauseAnimation()
 ```javascript
-pauseAnimation(id,delay)
+Animlib.pauseAnimation(id,delay)
 ```
 pauseAnimation stops an animation without deleting it. 
 
 ### resumeAnimation()
 ```javascript
-resumeAnimation(id,delay)
+Animlib.resumeAnimation(id,delay)
 ```
 resumeAnimation resumes an animation that was previously paused. If the animation had been stopped with stopAniamtion, resumeAnimation would not work as the animation would be deleted.
 
