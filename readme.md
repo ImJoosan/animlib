@@ -25,7 +25,7 @@ Easing Directions are in, out, and inout.
 
 #### The offset parameter dictates if the property should tween to the specified value or should tween to the existing property with the added offset of the specified value. (offset does not work with color)
 
-### The id returned by the Animlib.animateElement function is required to run all other functions.
+### The id returned by the Animlib.animateElement function is required to run other functions.
 
 ### stopAnimation()
 
@@ -57,7 +57,7 @@ If you are unfamiliar with how propertyTable works, it's quite simple. Looking a
 {x:320,y:450,rotation:90,"background-color":rgb(255,128,0,1)}
 ```
 
-Below is a basic example of how to use the function in code.org applab It will rotate the button 360 degrees with the easing of 'sine-inout'. It's also being stored in a variable. That variable will contain the id that you would need to stop the animation.
+Below is a basic example of how to use the function in code.org applab. It will rotate the button 360 degrees and change the height of the button with the easing of 'sine-inout'. It's also being stored in a variable. That variable will contain the id that you would need to stop the animation or check isAnimationPlaying().
 ```javascript
 var anim = Animlib.animateElement("button1",{rotation:360,height:100},1,"sine","inout");
 ```
@@ -93,6 +93,8 @@ Animlib's rotate function is helpful for rotating objects. In the example below,
 Animlib.rotate("button1",90);
 ```
 
+## Special Thanks
+Not Dane
 ## License
 ```
 © 2023 Joosan, All Rights Reserved, <bongocatjoosan@gmail.com>
