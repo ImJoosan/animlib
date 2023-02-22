@@ -88,7 +88,7 @@ console.log(Animlib.isAnimationPlaying(anim)); //true
 ```javascript
 Animlib.rotate(element,degrees)
 ```
-Animlib's rotate function is helpful for rotating objects. In the example below, it rotates button1 90 degrees.
+Animlib's rotate function is helpful for rotating objects. In the example below, it rotates button1 90 degrees. This function only sets the rotation of an object. To animate rotation, use the "rotation" property in the propertyTable.
 ```javascript
 Animlib.rotate("button1",90);
 ```
