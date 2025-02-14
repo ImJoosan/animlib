@@ -9,6 +9,8 @@ Animlib is a JavaScript Code.org library for creating and playing animations.
 
 Hit the settings cog next to the toolbox. Hit manage libraries. You should see Animlib under the author Joosan. If you don't see it, use the library id: 'pVjZOLbmOUcM9RQgaXeWta8N2yy5eqpmVpu1EmFZZII' Hit the plus next to the Animlib library and the page should refresh. When you run your program, it will automatically detect that it's your first time installing it within the project and will prompt you with  documentation. 
 
+**2025 EDIT**: I made this two years ago and never added the source code for some reason. It's now in the main.js file. You can copy and paste it into or any project or make your own library and copy paste the code into there. Message me if you make anything with this. Thanks!
+
 ## Update detection
 Animlib will automatically detect when there is an update to the library and will put a message in the console telling you so. To update, follow the same steps to get to manage libraries. There is a list containing all of your installed libraries for the project. Hit the update icon next to Animlib to update. After you update, the page will refresh and you'll get a message stating that you have updated.
 ## Usage
